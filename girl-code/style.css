@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    margin: 100px auto;
+    width: 1000px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1-tS6U4ogZM0uIOHDrKGQwJKLCGyBoTs5Bw&usqp=CAU);
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.banner-img {
+    flex-basis: 29%;
+}
+
+.banner img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.content h2 {
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+.content {
+
+    flex-basis: 71%;
+
+}
+
+.content p {
+    text-align: center;
+}
+.button {
+    text-align: center;
+}
+.content button {
+    padding: 10px 20px 10px 20px;
+    background-color: salmon;
+    border:none;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.list-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.card1 {
+    flex-basis: 300px;
+}
+
+.card img {
+    width: 200px;
+
+
+
+}
+
+.info {
+    text-align: center;
+}
+
+p {
+
+    font-size: 20px;
+}
+
+.header {
+    height: 70px;
+    background-color: skyblue;
+    display: flex;
+    flex: row;
+}
+
+.logo {
+    flex-basis: 50%;
+}
+
+.header menu {
+    flex-basis: 50%;
+    font-size: 25px;
+    margin-right: 10px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.menu a {
+    font-size: 20px;
+}
+
+.menu-active {
+    color: white;
+    background-color: red;
+    background-size: 10px;
+    border-radius: 80px;
+    text-align: center;
+
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+===============INTRO============
+/////////////////////////////// */
+
+.main-content {
+    width: 1200px;
+    margin: auto;
+}
+
+.main-content img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.intro{
+    text-align:center ;
+    color: blue
+}
+
+.body{
+    margin: 50px;
+}
+.contact{
+    width: 300px;
+
+    text-align:center;
+    background-color:pink;
+    margin: 10px 500px 10px 500px;
+    padding: 20px
+}
+.mo{
+    color: red;
+}
+
+    
+
+
